@@ -1,8 +1,14 @@
 .bg {
-  background-image: url('../assets/images/SetelahLulusSekolah.jpeg');
-  background-size: cover;
   justify-content: center;
   align-items: center;
+}
+
+.bg-login {
+  background-image: url('../assets/images/SetelahLulusSekolah.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
 }
 
 .login-container {
@@ -81,14 +87,23 @@
     }
   }
 
-  .email-input,
-  .password-input {
+  #email-input,
+  #password-input {
     border: 1px solid #ccc;
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 5px;
     width: 100%;
   }
+
+  /* .email-input,
+  .password-input {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+  } */
 
   .options-container {
     display: flex;
@@ -149,3 +164,212 @@
       margin: 0;
     }
   }
+
+  /* .home-4-home-house-roof-shelter */
+.home-4-home-house-roof-shelter {
+  margin: 0 8.3px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22.3px;
+  height: 18.9px;
+  box-sizing: border-box;
+}
+
+/* .home-4-home-house-roof-shelter-1 */
+.home-4-home-house-roof-shelter-1 {
+  width: 22.3px;
+  height: 18.9px;
+}
+
+/* .frame-427318207 */
+.frame-427318207 {
+  margin: 0 85px 34px 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+/* .selamat-datang-mona-lisa-hastarina */
+.selamat-datang-mona-lisa-hastarina {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.333;
+  color: rgba(63, 105, 216, 0.96);
+}
+
+/* .colums */
+.colums {
+  border-bottom: 1px solid #969696;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 17px 29.2px;
+  width: 690px;
+  box-sizing: border-box;
+}
+
+/* .colums-2 */
+.colums-2 {
+  border-bottom: 1px solid #969696;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 5px 23.5px;
+  width: 690px;
+  box-sizing: border-box;
+}
+
+/* .colums-3 */
+.colums-3 {
+  border-bottom: 1px solid #969696;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: -266px;
+  bottom: -25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 3px 26.9px;
+  width: 690px;
+  height: 56px;
+  box-sizing: border-box;
+}
+
+/* .colums-4 */
+.colums-4 {
+  border-bottom: 1px solid #969696;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: -266px;
+  bottom: -83px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 19px 8.1px;
+  width: 690px;
+  height: 58px;
+  box-sizing: border-box;
+}
+
+/* .colums-5 */
+.colums-5 {
+  border-bottom: 1px solid #969696;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: -266px;
+  bottom: -138px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 16px 5.3px;
+  width: 690px;
+  height: 55px;
+  box-sizing: border-box;
+}
+
+/* .colums-6 */
+.colums-6 {
+  border-bottom: 1px solid #969696;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: -266px;
+  bottom: -194px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 17px 13.5px;
+  width: 690px;
+  height: 56px;
+  box-sizing: border-box;
+}
+
+/* .colums-7 */
+.colums-7 {
+  border-bottom: 1px solid #969696;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 16px 39.3px;
+  width: 690px;
+  box-sizing: border-box;
+}
+
+/* Style for the columns-8 class */
+.columns-8 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 690px;
+  height: 90px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* Style for the email-input class */
+.email-input {
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 10px 15px;
+  width: 350px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  box-sizing: border-box;
+}
+
+/* Style for the subscribe-button class */
+.subscribe-button {
+  background-color: #3F69D8;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Style for the subscribe-button class on hover */
+.subscribe-button:hover {
+  background-color: #2B4EAD;
+}
+
+/* Style for the footer-text class */
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style for the social-icons class */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style for the social-icon class */
+.social-icon {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #3F69D8;
+  transition: color 0.3s ease;
+}
+
+/* Style for the social-icon class on hover */
+.social-icon:hover {
+  color: #2B4EAD;
+}
