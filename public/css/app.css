@@ -1,0 +1,151 @@
+.bg {
+  background-image: url('../assets/images/SetelahLulusSekolah.jpeg');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+    background-color: #e4ebf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 39px 80px 80px;
+    max-width: 511px;
+    margin: 0 auto;
+  }
+
+  .password-input-container {
+    position: relative;
+}
+
+.password-input {
+    padding-right: 40px; /* Menambahkan ruang di sebelah kanan input untuk ikon */
+}
+
+.eye-icon {
+    position: absolute;
+    top: 45%;
+    right: 10px; /* Jarak ikon dari tepi input */
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    fill: #999; /* Warna ikon */
+    cursor: pointer; /* Mengubah ikon menjadi tanda yang menunjukkan dapat diklik */
+}
+
+.eye-icon.active {
+  fill: black; /* Warna ikon menjadi hitam saat aktif */
+  border: 2px solid black; /* Menambahkan border saat ikon aktif */
+  border-radius: 50%; /* Membuat border menjadi lingkaran */
+}
+
+  @media (max-width: 991px) {
+    .login-container {
+      padding: 0;
+    }
+  }
+
+  .university-logo {
+    width: 112px;
+    height: 112px;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+
+  .attendance-title {
+    color: #000;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 40px;
+  }
+
+  .email-label,
+  .password-label {
+    font-family: Roboto, sans-serif;
+    text-decoration: underline;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(121, 158, 218, 0.17);
+    padding: 10px;
+    margin-bottom: 2px;
+    align-self: flex-start;
+  }
+
+  @media (max-width: 991px) {
+    .email-label {
+      margin: 40px 0 0 4px;
+    }
+    .password-label {
+      margin-left: 4px;
+    }
+  }
+
+  .email-input,
+  .password-input {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 991px) {
+    .options-container {
+      padding-right: 20px;
+      margin: 0 4px;
+    }
+  }
+
+  .forgot-password-link {
+    font-family: Roboto, sans-serif;
+    text-decoration: underline;
+  }
+
+  .remember-me-label {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .remember-me-checkbox {
+    margin-right: 13px;
+  }
+
+  .remember-me-text {
+    font-family: Roboto, sans-serif;
+  }
+
+  .login-button {
+    background-color: #3f69d8;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 30px;
+  }
+
+  .btn-login {
+    text-align: center;
+  }
+
+  @media (max-width: 991px) {
+    .login-button {
+      margin: 0;
+    }
+  }
