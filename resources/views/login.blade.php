@@ -1,10 +1,14 @@
 @extends('layout.template')
 
 @section('konten')
+
+  {{-- login --}}
+  
     <div class="bg-login">
       <div class="login-container">
             <img src="/assets/images/gambarTopi.png" alt="University Logo" class="university-logo" />
             <h2 class="attendance-title">Rekapitulasi Kehadiran Kuliah</h2>
+            {{-- awal form login --}}
             <form action="" method="post">
               <label for="email-input" class="email-label">Email Universitas</label>
               <input type="text" id="email-input" placeholder="Enter your university email" class="email-input" required />
@@ -28,12 +32,13 @@
               </div>
               
             </form>
-            
+              {{-- akhir form login --}}
           </div>
     </div>
     
 
     <script>
+      // fungsi menampilkan password
       document.getElementById('eye-icon').addEventListener('click', function() {
           var icon = document.getElementById('eye-icon');
           icon.classList.toggle('active'); // Toggle class 'active' saat ikon diklik

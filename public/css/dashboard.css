@@ -1,0 +1,60 @@
+.header {
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    display: flex; /* Menggunakan flexbox */
+    justify-content: space-between; /* Menyebarkan item ke sisi kiri, tengah, dan kanan */
+    align-items: center; /* Mengatur item ke tengah secara vertikal */
+}
+
+.logo {
+    margin-left: 16px;
+    width: 48px;
+    height: 48px;
+
+}
+
+.menu-list {
+    width: 24px;
+    height: 24px;
+    fill: #3F69D8; /* Warna ikon */
+    cursor: pointer; /* Mengubah ikon menjadi tanda yang menunjukkan dapat diklik */
+    margin-left: 16px; /* Jarak kiri dari ikon menu */
+}
+
+.center-head {
+    text-align: center;
+    flex-grow: 1; /* Menyebarkan ruang kosong di sekitar teks ke sisi kiri dan kanan */
+}
+
+.right-head {
+    margin-right: 16px; /* Jarak kanan dari konten ke tepi kanan */
+    display: flex;
+    align-items: center;
+}
+
+.notif {
+    width: 24px;
+    height: 24px;
+    fill: #3F69D8; /* Warna ikon */
+    cursor: pointer; /* Mengubah ikon menjadi tanda yang menunjukkan dapat diklik */
+    margin-right: 16px;
+}
+
+.foto-profil {
+    border-radius: 25px;
+    border: 2px solid #3F69D8;
+    margin-right: 16px;
+}
+
+.users {
+    margin-top: 15px;
+    margin-right: 16px;
+}
+
+.navbar {
+    background-color: white;
+    width: 65px;
+    height: 545px;
+    
+}
